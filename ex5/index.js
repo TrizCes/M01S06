@@ -1,8 +1,7 @@
 async function obterClienteNoBancoDeDados(idCliente) {
-  const cliente = await new Promise((resolve) => {
-    setTimeout(() => resolve({ nome: 'bruce wayne', id: idCliente }), 2000);
+  return new Promise((resolve) => {
+    resolve({ nome: 'bruce wayne', id: idCliente });
   });
-  return cliente;
 }
 
 async function processar() {
