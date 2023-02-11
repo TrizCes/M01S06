@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+body {
+  width: 100vw;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color: azure;
+}
+
+header{
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  background-color: lightblue;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#lista{
+  width: 95vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.itemLista{
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  width: 20vw;
+  background-color: white;
+}
+
+.itemLista:hover{
+  transform: scale(1.5);
+}
+
+.rodape{
+  padding: 20px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.rodape button{
+  padding: 10px;
+  background-color: lightblue;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+footer{
+  width: 100vw;
+  margin-top: auto;
+  background-color: rgb(167, 175, 184);
+  text-align: center;
+  padding-top: 5px;
+}
+
+footer p{
+  margin: 5px;
+}
