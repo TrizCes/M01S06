@@ -8,5 +8,4 @@ async function processar() {
   const processo = await obterClienteNoBancoDeDados(7);
   console.log(processo);
 }
-
 processar();
