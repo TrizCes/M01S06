@@ -12,9 +12,10 @@ const obterUsuarios = async (qtd = 4) => {
 };
 
 window.addEventListener('load', async () => {
-  const data = await obterUsuarios();
+  const data = await obterUsuarios(10);
 
   const lista = document.getElementById('lista');
+
   data.results.forEach((usuario) => {
     const item = document.createElement('li');
     const nome = document.createElement('h5');
